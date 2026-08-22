@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CartesEtGo — Politique de confidentialité</title>
+<meta name="description" content="Ce que l'application CartesEtGo enregistre, où, qui peut le voir et comment tout effacer.">
+<style>
+  :root {
+    --ink: #0a0e0d;
+    --surface: #ffffff;
+    --surface-alt: #f4f7f6;
+    --line: #dfe6e3;
+    --text: #14201d;
+    --dim: #4a5b56;
+    --muted: #6d7f79;
+    --accent: #8a6209;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --surface: #0a0e0d;
+      --surface-alt: #1a2220;
+      --line: #2e3835;
+      --text: #ecf2ef;
+      --dim: #b9c7c2;
+      --muted: #8a9c96;
+      --accent: #e3b341;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--surface);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 22px 72px; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 26px; margin-bottom: 34px; }
+  h1 { font-size: 1.75rem; line-height: 1.2; letter-spacing: -0.5px; margin: 0 0 10px; }
+  .lead { color: var(--dim); margin: 0; font-size: 1.02rem; }
+  .meta { color: var(--muted); font-size: 0.85rem; margin-top: 16px; }
+  h2 {
+    font-size: 0.78rem; letter-spacing: 1.4px; text-transform: uppercase;
+    color: var(--muted); font-weight: 600; margin: 38px 0 10px;
+  }
+  p { color: var(--dim); margin: 0 0 14px; }
+  ul { color: var(--dim); padding-left: 20px; margin: 0 0 14px; }
+  li { margin-bottom: 7px; }
+  strong { color: var(--text); font-weight: 600; }
+  a { color: var(--accent); }
+  .card {
+    background: var(--surface-alt); border: 1px solid var(--line);
+    border-radius: 14px; padding: 16px 18px; margin: 0 0 14px;
+  }
+  .card p:last-child, .card ul:last-child { margin-bottom: 0; }
+  footer {
+    margin-top: 46px; padding-top: 22px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 0.86rem;
+  }
+  code {
+    background: var(--surface-alt); border: 1px solid var(--line);
+    border-radius: 5px; padding: 1px 5px; font-size: 0.88em;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>CartesEtGo — Politique de confidentialité</h1>
+  <p class="lead">CartesEtGo garde le strict nécessaire pour vous rendre vos cartes de
+  fidélité sur n'importe quel téléphone, et rien d'autre.</p>
+  <p class="meta">
+    Application <code>com.myboxmp.cartesetgo</code> ·
+    Dernière mise à jour : 22 août 2026
+  </p>
+</header>
+
+<h2>Qui est responsable</h2>
+<p>CartesEtGo est édité par un développeur indépendant établi en Belgique, à titre
+privé et non commercial hormis les modalités décrites plus bas. Pour toute question
+relative à vos données, ou pour exercer l'un des droits décrits plus bas :
+<a href="mailto:fabio296@hotmail.fr">fabio296@hotmail.fr</a>.</p>
+
+<h2>Ce qui est enregistré</h2>
+<div class="card">
+  <p><strong>Votre adresse e-mail</strong>, qui identifie votre compte.</p>
+  <p><strong>Pour chaque carte :</strong> son nom, le numéro du code-barres et son
+  format, l'enseigne et la couleur choisies, la note que vous ajoutez
+  éventuellement, le format d'affichage préféré, le fait qu'elle soit épinglée,
+  ainsi que les dates de création et de dernier usage et un compteur d'utilisation.</p>
+  <p><strong>Aucune image n'est conservée.</strong> Le monogramme coloré des cartes
+  est dessiné par l'application ; il n'est stocké nulle part.</p>
+  <p><strong>Votre mot de passe n'est pas lisible par l'application.</strong> Il est
+  confié au service d'authentification Firebase, qui n'en conserve qu'une empreinte.</p>
+</div>
+
+<h2>Où ces données se trouvent</h2>
+<p>À deux endroits, toujours les deux : <strong>sur votre téléphone</strong>, et sur
+les serveurs <strong>Firebase de Google</strong>, dans la multirégion européenne
+<code>eur3</code>. C'est cette duplication qui fait la promesse de l'application —
+le téléphone permet de tout consulter sans réseau, le serveur permet de tout
+retrouver après une perte ou une réinstallation.</p>
+<p>Google agit ici comme sous-traitant. Les données ne quittent pas l'Union
+européenne dans le cadre de ce stockage.</p>
+
+<h2>Qui peut les voir</h2>
+<p>Vous, connecté à votre compte. Les règles de sécurité du serveur refusent toute
+lecture d'une carte à quiconque n'en est pas le propriétaire. <strong>Il n'existe ni
+console d'administration, ni compte privilégié, ni personne capable de lister vos
+cartes</strong> — l'éditeur lui-même n'y a pas accès.</p>
+
+<h2>La publicité</h2>
+<div class="card">
+  <p>L'application affiche un bandeau publicitaire, et propose éventuellement une
+  vidéo à regarder pour la soutenir. Ces publicités sont fournies par
+  <strong>Google AdMob</strong>, qui devient alors responsable de ce qu'il collecte :
+  un identifiant publicitaire propre à votre appareil, votre région approximative,
+  et ce sur quoi vous appuyez.</p>
+  <p>Votre <strong>consentement vous est demandé au premier lancement</strong>, au
+  moyen du formulaire officiel de Google, et « Modifier mes choix publicitaires »
+  dans les réglages permet d'en changer à tout moment.</p>
+  <p><strong>Rien de ce qui vous concerne dans l'application ne part chez
+  l'annonceur</strong> : ni vos cartes, ni leurs numéros, ni votre adresse e-mail.
+  La régie ne sait pas ce que fait cette application.</p>
+  <p>Aucune publicité ne s'affiche sur l'écran de passage en caisse, ni pendant que
+  vous écrivez. L'achat de la version premium les supprime entièrement.</p>
+  <p>Détail de ce que collecte AdMob :
+  <a href="https://business.safety.google/privacy/" rel="noopener">règles de
+  confidentialité de Google</a>.</p>
+</div>
+
+<h2>L'achat de la version premium</h2>
+<p>Le paiement est traité entièrement par <strong>Google Play</strong>. L'application
+ne voit, n'enregistre et ne transmet <strong>aucune donnée bancaire</strong>. Elle
+se contente de demander au magasin si l'achat a été effectué, et de retenir la
+réponse sur votre appareil pour que la version premium fonctionne hors ligne.</p>
+
+<h2>Ce que l'application ne fait pas</h2>
+<ul>
+  <li>Elle ne mesure pas votre usage : pas de statistiques d'audience, pas de
+  traceur maison, aucune revente de quoi que ce soit à qui que ce soit.</li>
+  <li>Elle ne demande ni votre position, ni vos contacts, ni vos fichiers.</li>
+  <li>La caméra ne sert qu'à lire un code-barres. <strong>Aucune photo n'est
+  conservée</strong> : seul le numéro lu l'est.</li>
+</ul>
+
+<h2>Quand vous partagez une carte</h2>
+<p>Le QR code affiché contient la carte elle-même. <strong>Rien ne transite par un
+serveur</strong>, et personne n'est prévenu. En revanche, il contient bien le numéro
+de votre carte : ne le montrez qu'à quelqu'un à qui vous confieriez la carte
+plastique.</p>
+
+<h2>Combien de temps elles sont gardées</h2>
+<p>Aussi longtemps que votre compte existe. Il n'y a pas de purge automatique : une
+application dont la promesse est de ne rien oublier ne supprime rien d'elle-même.
+La suppression vient toujours de vous.</p>
+
+<h2>Comment tout effacer</h2>
+<p>Une carte à la fois, par « Supprimer » dans ses actions.</p>
+<p>Ou d'un coup, par <strong>« Supprimer mon compte »</strong> dans les réglages : le
+compte et toutes les cartes disparaissent des serveurs comme du téléphone.
+<strong>Aucune copie n'est conservée, et il n'y a pas de corbeille.</strong></p>
+
+<h2>Vos droits</h2>
+<p>Le règlement européen sur la protection des données vous ouvre un droit d'accès,
+de rectification, d'effacement, de limitation, d'opposition et de portabilité.</p>
+<p>En pratique, l'application les couvre déjà directement : vos données y sont
+toutes consultables et modifiables, et « Supprimer mon compte » les efface
+définitivement. Pour toute autre demande, écrivez à
+<a href="mailto:fabio296@hotmail.fr">fabio296@hotmail.fr</a>. Vous pouvez également
+introduire une réclamation auprès de l'
+<a href="https://www.autoriteprotectiondonnees.be/" rel="noopener">Autorité de
+protection des données</a> belge.</p>
+
+<h2>Les enfants</h2>
+<p>CartesEtGo n'est pas destiné aux enfants et ne leur est pas adressé. Aucune
+donnée n'est sciemment collectée auprès de personnes de moins de 16 ans.</p>
+
+<h2>Modifications</h2>
+<p>Toute évolution de ce texte sera publiée sur cette page, avec sa date. Les
+changements significatifs seront également signalés dans l'application.</p>
+
+<footer>
+  CartesEtGo · <code>com.myboxmp.cartesetgo</code><br>
+  Contact : <a href="mailto:fabio296@hotmail.fr">fabio296@hotmail.fr</a><br>
+  Dernière mise à jour : 22 août 2026
+</footer>
+
+</div>
+</body>
+</html>
